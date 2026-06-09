@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrix Cipher Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔐 Matrix Cipher Tool</h1>
+
+    <select id="mode">
+      <option value="encrypt">Encrypt</option>
+      <option value="decrypt">Decrypt</option>
+    </select>
+
+    <input type="password" id="password" placeholder="Enter password">
+
+    <textarea id="inputText" placeholder="Enter text here..."></textarea>
+
+    <input type="file" id="fileInput">
+
+    <button onclick="process()">Run</button>
+
+    <h3>Output:</h3>
+    <textarea id="outputText" readonly></textarea>
+
+    <button onclick="downloadOutput()">Download .txt</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

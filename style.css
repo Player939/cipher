@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  margin: 10px 0;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  border: none;
+}
